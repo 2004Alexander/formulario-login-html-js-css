@@ -4,32 +4,32 @@
 
 html {
     margin:  0;
-    background :  rgb(12, 14, 12);
+    background :  rgb(86, 186, 216);
     color: rgb(240, 232, 232);
     padding:  0;
 }
 
 body { 
-    background : rgb(16, 17, 16);  
+    background : rgb(128, 218, 245);  
     padding-bottom: 20px;
  }
 
  p{
      text-align: center; ;
      background : #ccc;
-     color: #000;
+     color: rgb(209, 24, 24);
  }
 
  form {
-    background : #ccc;
+    background : rgb(37, 36, 36);
       padding:  10px;
       display: flex;
       flex-direction: column;
       width :50%;
-      border : 1px solid #000;
+      border : 1px solid rgb(197, 233, 39);
       margin : 0 auto;
       border-radius :15px;
-      box: shadow: 5px 5px 5px rgba(45, 179, 12, 0);
+      box-shadow: 5px 5px 5px rgba(235, 238, 77, 0);
  }
  input {
      width:80%; 
@@ -37,3 +37,28 @@ body {
      border-radius: 15px;
      border : #ccc
  }
+
+
+ #botones {
+    margin-top :10px; 
+ }
+
+#botones button {
+    padding:8px;
+    border-radius: 10px;
+    border:0;
+}
+
+#botones button:hover {
+    background: rgb(164, 165, 162);
+    color: rgb(177, 219, 24);
+    cursor: pointer;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+td,th {
+  border: 1px solid green;
+}
